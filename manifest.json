@@ -1,0 +1,20 @@
+{
+    "name": "Next Chrome",
+    "description": "Next.js Chrome Extension starter",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+      "default_title": "Next.js app"
+      
+    },
+    "side_panel":{
+      "default_path":"out/index.html"
+    },
+    "background":{
+"service_worker": "extension/background.js"
+    }
+    ,
+    "permissions": [
+      "sidePanel"
+    ]
+  }
